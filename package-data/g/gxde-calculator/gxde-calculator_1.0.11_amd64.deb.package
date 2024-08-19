@@ -1,0 +1,19 @@
+Package: gxde-calculator
+Architecture: amd64
+Version: 1.0.11
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 1035
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.2.1)
+Replaces: deepin-calculator
+Filename: ./g/gxde-calculator/gxde-calculator_1.0.11_amd64.deb
+Size: 272488
+MD5sum: 05c0b6910d1fc8065f903c89bd63f5c0
+SHA1: 2e23e0cf7b05e74ce550b866d28e1a6461731282
+SHA256: 3b9b3f5f0a8ed7bc8f37ae57585cfff2dea4947404dff7ea4e8148bc7d195b59
+SHA512: 64b7878aa03f2d87edb24df10e2bc6d60d64f72f988a4302432a9fc2d32e1561efae4618e5fa8815ca2010ba2ff417e722f3c1f84e5c6fc5187a9784066f37ea
+Homepage: https://gxde.gfdgdxi.top
+Description: Calculator for GXDE
+ GXDE calculator tool.
+

@@ -1,0 +1,19 @@
+Package: gxde-sea-icon-theme
+Architecture: all
+Version: 2024.08.18
+Priority: optional
+Section: x11
+Source: gxde-icon-theme
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 6231
+Conflicts: gxde-icon-theme (<< 15.12.65)
+Replaces: sea-icon-theme
+Filename: ./g/gxde-sea-icon-theme/gxde-sea-icon-theme_2024.08.18_all.deb
+Size: 2016584
+MD5sum: 88d390ef3e190cbd7aef4c2ca821873a
+SHA1: 85a341fb4a4b4b992c9ae892c3c5fbd9c56cd7cd
+SHA256: 8202934caee3e639d7fb080b4d3661d0ba77e50a40cc304efe0749092cbb8f18
+SHA512: 0fddb7b62f6a881e56c72a1c2eb1c2966c39eeed3c8dbe239043bb3fbbb143c393c7f5550e282e6734521f0f851a46318e77b60743ba9f422c97ac57d5beb8d2
+Description: GXDE Sea Icons
+ This package is GXDEIconTheme Sea
+

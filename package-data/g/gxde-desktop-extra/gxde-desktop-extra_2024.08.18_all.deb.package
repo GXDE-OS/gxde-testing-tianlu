@@ -1,0 +1,21 @@
+Package: gxde-desktop-extra
+Architecture: all
+Version: 2024.08.18
+Priority: extra
+Section: metapackages
+Source: gxde
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 8
+Depends: gxde-voice-recorder, gxde-calculator, gxde-terminal, gxde-deb-installer, gxde-editor, gxde-image-viewer, gxde-icon-theme, gxde-sea-icon-theme
+Filename: ./g/gxde-desktop-extra/gxde-desktop-extra_2024.08.18_all.deb
+Size: 2104
+MD5sum: 2f64b19125deb09e2a5ff9e8a6ca0ac2
+SHA1: 6fba26a972220867a2e3a44c4255fba140001f9d
+SHA256: 1da4fdc135eaaa0846f9b750b8b1e7d6f2352c0f406f2e2e220f39aba5007414
+SHA512: d54d23d5f0ec358cfea643d968d1c44b94e139072d3580f7aa72189949c4e78e929a4e2c073cbff28622906a36c769495fbfb6e302195f002d32db5401187470
+Homepage: http://www.gfdgdxi.top
+Description: GXDE New Desktop Environment Extra - Next
+ This is a meta package depends GXDE New Desktop Envrionment Extra.
+ .
+ You can safety remove it after installed.
+

@@ -1,0 +1,21 @@
+Package: gxde-deb-installer
+Architecture: amd64
+Version: 1.3.2.1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 731
+Provides: deepin-deb-installer
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.2), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libqapt3-runtime
+Replaces: deepin-deb-installer
+Filename: ./g/gxde-deb-installer/gxde-deb-installer_1.3.2.1_amd64.deb
+Size: 193396
+MD5sum: 361857e2ade51e2406986b3ab81d2df7
+SHA1: b031f931faa99dafbd6b76fd72f4dd5744ca5c12
+SHA256: cae350a78b7b7f9f6c2598e3f4fde71d06f370caf3a403bb2336ec1f7468bd28
+SHA512: 8f9c3de696b49bcb2d43a4d819385281c23f3f42527ee27d8396d6d035c8d70dd0a60b03745fcd6750cb0edc0f5cbf68d3a71c4791a6e6cbec548ce3723ffc3d
+Homepage: https://www.deepin.com/
+Description: GXDE deb installer tool
+ GXDE Package Manager is used to help users install and
+ remove local software, supports to bulk install.
+

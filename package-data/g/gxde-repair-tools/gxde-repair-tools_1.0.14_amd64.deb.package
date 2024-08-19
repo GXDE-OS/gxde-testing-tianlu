@@ -1,0 +1,19 @@
+Package: gxde-repair-tools
+Architecture: amd64
+Version: 1.0.14
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 850
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), os-prober
+Replaces: deepin-repair-tools
+Filename: ./g/gxde-repair-tools/gxde-repair-tools_1.0.14_amd64.deb
+Size: 171508
+MD5sum: c205be4b8f2c49156aa11334ea5e6c61
+SHA1: b7f1e5b777a35abef74668c3990885b9493d154b
+SHA256: ea9b755cb32adbacf19098048e37f355e4ea7d164a7db602a697714ac2ccbd89
+SHA512: 252b6fecd668dd0c8db8644a0e7c73340bfaca5569e9db82f0b61d7da4c8dcc7ad857d1c862832e97f3057dde4f6d93f7a9c5b47b66d6c4b851bbb416608ed37
+Homepage: https://gxde.gfdgdxi.top
+Description: GXDE system repair tools
+ GXDE Repair Tools is a useful tools for system repair & clean.
+

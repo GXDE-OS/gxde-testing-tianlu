@@ -1,0 +1,17 @@
+Package: gxde-qt5integration
+Architecture: amd64
+Version: 0.3.11
+Priority: optional
+Section: devel
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 689
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 4.1.1), qtbase-abi-5-15-8, dde-qt5xcb-plugin, dde-qt5integration
+Filename: ./g/gxde-qt5integration/gxde-qt5integration_0.3.11_amd64.deb
+Size: 221956
+MD5sum: a58aeb0a3b6690614bfbfdb47a8a7e2c
+SHA1: c1d0e6febec0a379fd917ffa61a2afef5e49d4af
+SHA256: 86abff9b3c8df315d09e855845977688f6acde5567d87e88884fd27d82fade6e
+SHA512: 0dfc2a7a4db8608cc5903a961f5220faf8d4247303ae2f7f99626d0f57076bb5f8ea447f3027c011e52e14e8d7b11ff6bfae35b5b27b6fc3239e28ebe710b605
+Description: Qt platform theme integration plugins for GXDE
+ Multiple Qt plugins to provide better Qt5 integration for GXDE is included.
+
