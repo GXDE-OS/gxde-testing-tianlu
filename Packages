@@ -116,11 +116,11 @@ Maintainer: gfdgd xi <3025613752@qq.com>
 Installed-Size: 8
 Depends: gxde-voice-recorder, gxde-calculator, gxde-terminal, gxde-deb-installer, gxde-editor, gxde-image-viewer, gxde-icon-theme, gxde-sea-icon-theme, gxde-download
 Filename: ./g/gxde-desktop-extra/gxde-desktop-extra_2024.08.20_all.deb
-Size: 2116
-MD5sum: 7008537bf36a5459f402834486862426
-SHA1: 283509d8234ca84e68d39654549449fc3ab602ce
-SHA256: a970e5fa1928ff18049fc4da9558504ba4858c0c9071caec440e4743bf863dc2
-SHA512: e76ecfc13c82a5b85a610ee1a7b415804f5d526412c54564fe637766770545242e5ae047da7d74554b02a15eeb44de5502c1b5614bcc3b71dfa63867efca0845
+Size: 2108
+MD5sum: c6fb6ff63b731c1c40c406372c46013c
+SHA1: f8ad0474eb92ffb8b710f0ccb4c87901773fb77f
+SHA256: 6a54bf14b72cb950cc6bd4e83defa7ea4e678e171a1b1d63a6cf57afb51e2fc6
+SHA512: 2bb408c0c1439cbe9bd8dd31c48076b8401f05467c7ee057e6da1f20bd52fbdb076316b770872c25d7f104f3ccebed77c96a152f8a3ac9c7ec491486cd11c763
 Homepage: http://www.gfdgdxi.top
 Description: GXDE New Desktop Environment Extra - Next
  This is a meta package depends GXDE New Desktop Envrionment Extra.
@@ -152,15 +152,15 @@ Section: metapackages
 Source: gxde
 Maintainer: gfdgd xi <3025613752@qq.com>
 Installed-Size: 8
-Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, gxde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver, gxde-default-settings
-Recommends: gxde-desktop-extra, file-roller, gksu, gxde-editor, gxde-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, ttf-deepin-opensymbol, gxde-terminal, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, gxde-image-viewer, dde-calendar, gxde-calculator, gxde-voice-recorder, deepin-screen-recorder, deepin-font-installer, warm-sched, spark-deepin-wine-runner, cheese, gxde-top-panel, plank, fcitx5-material-color, tela-grub2-themes, plymouth-theme-gxde-logo, fcitx5, fcitx5-table
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-control-center (>> 2.90.5), dde-launcher, startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, gxde-wallpapers, fonts-noto, dde-kwin, deepin-screensaver, gxde-default-settings, gxde-desktop-extra
+Recommends: file-roller, gksu, gxde-editor, gxde-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, ttf-deepin-opensymbol, gxde-terminal, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, gxde-image-viewer, dde-calendar, gxde-calculator, gxde-voice-recorder, deepin-screen-recorder, deepin-font-installer, warm-sched, spark-deepin-wine-runner, cheese, gxde-top-panel, plank, fcitx5-material-color, tela-grub2-themes, plymouth-theme-gxde-logo, fcitx5, fcitx5-table
 Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher, libdframeworkdbus2 (>> 15)
 Filename: ./g/gxde-desktop/gxde-desktop_2024.08.20_all.deb
-Size: 2688
-MD5sum: 9cc00e61fdd73efefbbaa9357ff53c7b
-SHA1: 2c7660b40d15220f72a1977569617263a5f53f10
-SHA256: 8ddfa1f45dfb9d8afa25c79e51c8a41804dcea0e0f322bb51e29699ba46ba647
-SHA512: 82fa050736006d37fc67b34f697a5d2438a5667329dfa156193dd23387a6654401d409a2d683f91a04eae6059b57f365a3aa93bbb1fbaee5f2b33a7b3094b775
+Size: 2676
+MD5sum: 0ad45ac999a5719a5be97e2fa281583a
+SHA1: 3108b73d2526a86af1544ad35b3035ea5d793c26
+SHA256: c74ef0b8748749f1f4b5a8f2d0cb95d36cb58432762683cf49f835bc3ebc257a
+SHA512: 9694e553b6505372c348338ba85f4c279a1cc9f860d1db9094360ad10970312984db89ba4389517e446ac46767bd8f1201ee995fca880d8d6feb620b7ee3d169
 Homepage: http://www.gfdgdxi.top
 Description: GXDE New Desktop Environment - Next
  This is a meta package depends GXDE New Desktop Envrionment.
@@ -625,6 +625,28 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
 
+Package: deepin-music
+Architecture: amd64
+Version: 3.1.18
+Priority: extra
+Section: sound
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3697
+Depends: libavformat59 (>= 7:5.0), libc6 (>= 2.34), libcue2, libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.2), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, libqt5sql5-sqlite, libqt5multimedia5-plugins, gstreamer1.0-fluendo-mp3, gvfs
+Filename: ./d/deepin-music/deepin-music_3.1.18_amd64.deb
+Size: 1689344
+MD5sum: 8d4690c8bef4ce8e49935d07e210fbb5
+SHA1: 85bbf281374c28a89cc7b5dd7f0cad268b164960
+SHA256: fe7d70c46cbc7e29a3cb28d28c160d192673d95b0b969a209017a124d15f3532
+SHA512: 3ca2b12b2bdf104afc9c76ed03993022b2743c5b5d80c9f003f7e42f4e1170c98fbbb417ad11e9f44808e3226cb578d9325c46ea5e6f9482a67222417247db78
+Homepage: http://www.deepin.org/
+Description: Awesome music player with brilliant and tweakful UI
+ Deepin-UI based, gstreamer front-end, with features likes search music
+ by pinyin,quanpin, colorful lyrics supports, and more powerful
+ functions you will found.
+ .
+ Just enjoy it! have fun!
+
 Package: dde-control-center
 Architecture: amd64
 Version: 4.10.24gxde4
@@ -744,4 +766,52 @@ SHA512: 00d04a05021f1896ff7587c8f088978fb3f8330dafa05b0cd183e9401802f3a627770f2b
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
+
+Package: zenity-common
+Architecture: all
+Version: 4.0.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: zenity
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 11374
+Filename: ./z/zenity-common/zenity-common_4.0.2-1_all.deb
+Size: 2955580
+MD5sum: b82a97d498b56cc4dc1a5fda8d633c48
+SHA1: 8e725103cd529dd13b1bc7b8624ac785ea1ad6b3
+SHA256: 1ea57106709140171b7bfcee45c634e486240bb30ee217539b0d75994b6a8b91
+SHA512: 998529d6fb7e15c2b15b82108c575dbf6691c05dfbc4f5137713def4cd5598d6c99a337fa3870a673134a994bf012ea8dedfc21b926c79a0826b3d28a1b702ec
+Homepage: https://wiki.gnome.org/Projects/Zenity
+Description: Display graphical dialog boxes from shell scripts (common files)
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
+ .
+ This package contains architecture independent files.
+
+Package: zenity
+Architecture: amd64
+Version: 4.0.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 187
+Depends: libadwaita-1-0 (>= 1.2), libc6 (>= 2.34), libglib2.0-0 (>= 2.43.4), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), zenity-common (>= 4.0.2-1)
+Filename: ./z/zenity/zenity_4.0.2-1_amd64.deb
+Size: 73872
+MD5sum: 024fa98b3478d723443b26f3f00da4fc
+SHA1: 76bc29106a285a9c1727180e7bcfa113e43c29fd
+SHA256: 641438ccd69f18235989ab3e4a0233928b95680b2b8f0d8f102498c9ba256b3d
+SHA512: 44fbf7fd3eb7eeed79263bf05d434afabc70a1b7e10dbdab09db9752c0bba33c343307818d96aae2ade1f7a1134149e55d39c8f8b2c9fca442e39ca3be994f50
+Homepage: https://wiki.gnome.org/Projects/Zenity
+Description: Display graphical dialog boxes from shell scripts
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
 

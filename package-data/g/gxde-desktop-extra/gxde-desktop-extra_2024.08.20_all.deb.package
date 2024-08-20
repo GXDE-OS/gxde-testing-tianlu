@@ -8,11 +8,11 @@ Maintainer: gfdgd xi <3025613752@qq.com>
 Installed-Size: 8
 Depends: gxde-voice-recorder, gxde-calculator, gxde-terminal, gxde-deb-installer, gxde-editor, gxde-image-viewer, gxde-icon-theme, gxde-sea-icon-theme, gxde-download
 Filename: ./g/gxde-desktop-extra/gxde-desktop-extra_2024.08.20_all.deb
-Size: 2116
-MD5sum: 7008537bf36a5459f402834486862426
-SHA1: 283509d8234ca84e68d39654549449fc3ab602ce
-SHA256: a970e5fa1928ff18049fc4da9558504ba4858c0c9071caec440e4743bf863dc2
-SHA512: e76ecfc13c82a5b85a610ee1a7b415804f5d526412c54564fe637766770545242e5ae047da7d74554b02a15eeb44de5502c1b5614bcc3b71dfa63867efca0845
+Size: 2108
+MD5sum: c6fb6ff63b731c1c40c406372c46013c
+SHA1: f8ad0474eb92ffb8b710f0ccb4c87901773fb77f
+SHA256: 6a54bf14b72cb950cc6bd4e83defa7ea4e678e171a1b1d63a6cf57afb51e2fc6
+SHA512: 2bb408c0c1439cbe9bd8dd31c48076b8401f05467c7ee057e6da1f20bd52fbdb076316b770872c25d7f104f3ccebed77c96a152f8a3ac9c7ec491486cd11c763
 Homepage: http://www.gfdgdxi.top
 Description: GXDE New Desktop Environment Extra - Next
  This is a meta package depends GXDE New Desktop Envrionment Extra.
