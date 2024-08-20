@@ -1,0 +1,16 @@
+Package: gxde-testing-source
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 17
+Filename: ./g/gxde-testing-source/gxde-testing-source_1.0.1_all.deb
+Size: 4132
+MD5sum: 0dd8ef63315d199ffe814cc4c35cccef
+SHA1: 91332cc61e5efb76eeadf8f10a1a3401d82d6b3e
+SHA256: 54a35647e5a828baca37e4650824c16ba879a1952921c86329a1d0d268a9207c
+SHA512: 71f11ad3e855088ee7fd92dbe50631dfb72219d5ed5c5d4fc1c0bdebe6d644fcbfc7d5cb1fa24365d5a54bcb6ca0fdc2053c9e5ef996abc34816dd8269abf9a0
+Homepage: https://gitee.com/GXDE-OS/gxde-testing-source
+Description: GXDE Testing Source
+

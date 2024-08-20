@@ -14,6 +14,22 @@ Description: A plugin for dde-dock in GXDE OS 15.13，显示网速和CPU内存�
 
 Package: gxde-testing-source
 Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Installed-Size: 17
+Filename: ./g/gxde-testing-source/gxde-testing-source_1.0.1_all.deb
+Size: 4132
+MD5sum: 0dd8ef63315d199ffe814cc4c35cccef
+SHA1: 91332cc61e5efb76eeadf8f10a1a3401d82d6b3e
+SHA256: 54a35647e5a828baca37e4650824c16ba879a1952921c86329a1d0d268a9207c
+SHA512: 71f11ad3e855088ee7fd92dbe50631dfb72219d5ed5c5d4fc1c0bdebe6d644fcbfc7d5cb1fa24365d5a54bcb6ca0fdc2053c9e5ef996abc34816dd8269abf9a0
+Homepage: https://gitee.com/GXDE-OS/gxde-testing-source
+Description: GXDE Testing Source
+
+Package: gxde-testing-source
+Architecture: all
 Version: 1.0.0
 Priority: optional
 Section: utils
@@ -568,6 +584,25 @@ MD5sum: 6d6b94e18e3d8c24b55a0e99c8633ffb
 SHA1: 01534306ff07fbd6d563a845b78b2fc71b97a2d2
 SHA256: a5dc3f1c69ee06039754c9eecead97fab5b3ce56fa42b05096786415583e3666
 SHA512: 140da22d86276b228080d3ebe96e640c50a3ba549b5fcf10929b5eb119e46485b240ce67baa59bb5b641fb413043a92bfd6fba5fdb9da1da46ee5850e511b8b3
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
+Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.08.20
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 141
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.08.20_amd64.deb
+Size: 20360
+MD5sum: 83b38a8e793871945063a26d832f744a
+SHA1: a981be2f829adf4dbe61677023391b6d6114b67e
+SHA256: eb9e44c09f46fb82b2796b79d450d946d4589dea485c8fc9c23a7dae29f4ce81
+SHA512: 93450c69c2fc28fe3dcf315eb61ecc690ad4d5d635a683fe47e0ea5054a63a8b623b85a1a21eb9a1ec3b66a25fc7def3bbb29dd375abeaf30adaacd0797058b4
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
