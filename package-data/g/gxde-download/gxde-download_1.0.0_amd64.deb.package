@@ -1,0 +1,18 @@
+Package: gxde-download
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 641
+Depends: libc6 (>= 2.34), libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), aria2
+Filename: ./g/gxde-download/gxde-download_1.0.0_amd64.deb
+Size: 162332
+MD5sum: 763e2d234f55249be07da54de24cb3f6
+SHA1: 8048cc0c2b354ad029ca0f481799ddd92d4bd319
+SHA256: 6a3a339f0a17b247f127ccbac3e006836be531b3e58f4e4c6e1fa6906849f43c
+SHA512: 473281a6f9e3f4a35e97ec5651fcc8af2af20105fca5a3d616c339dd5129086b4f8332c9a0624dd50e6175bacfd55b5390548fe70957cedc15583be8c9a1fd24
+Homepage: http://www.deepin.org
+Description: GXDE download utils
+ A download utils for GXDE.
+
