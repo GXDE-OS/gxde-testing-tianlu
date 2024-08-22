@@ -14,3 +14,4 @@ for p in sys.argv[1:]:
     if debPackage != "":
         os.system(f"mkdir -p '{programPath}/{debPackage[0].lower()}/{debPackage.lower()}'")
         os.system(f"cp -ruv '{p}' '{programPath}/{debPackage[0].lower()}/{debPackage.lower()}'")
+        os.system(f"chmod 755 '{programPath}/{debPackage[0].lower()}/{debPackage.lower()}'")

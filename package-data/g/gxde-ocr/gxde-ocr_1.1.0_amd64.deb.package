@@ -1,0 +1,22 @@
+Package: gxde-ocr
+Architecture: amd64
+Version: 1.1.0
+Priority: optional
+Section: utils
+Source: durian-ocr
+Maintainer: Liuminghang, gfdgd xi <3025613752@qq.com>
+Installed-Size: 32144
+Provides: deepin-ocr, durian-ocr
+Depends: libc6 (>= 2.35), libdtkcore2 (>= 15.11~2.2.2), libdtkwidget2 (>= 15.11~2.2.3), libgcc-s1 (>= 3.0), libgomp1 (>= 6), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 11)
+Breaks: deepin-ocr, durian-ocr
+Replaces: deepin-ocr, durian-ocr
+Filename: ./g/gxde-ocr/gxde-ocr_1.1.0_amd64.deb
+Size: 19859504
+MD5sum: 64118309fadb97a411078796956dea4f
+SHA1: 318ca20cd2eca9ceabce1083c4ae9b6257b31752
+SHA256: 0451405e0099e5b718d598e39f61247a82408d90bb0f047a458356b5a69a23d1
+SHA512: 21530415a9abe280925a0523d4a003ce0a06675da82c41e4a7c710f3d16ab987507e22caedc352903ce0fd4ae2d8b57e8567d86c29f35df7797ffb5229eb3fd4
+Homepage: http://www.deepin.org/
+Description: GXDE Ocr for dtk2
+ GXDE Ocr is a text recognition software.
+

@@ -10,3 +10,7 @@ os.system("rm gpg.asc")
 os.system("gpg --armor --detach-sign -o Release.gpg Release")
 os.system("gpg --clearsign -o InRelease Release")
 os.system("gpg --armor --output gpg.asc --export 3025613752@qq.com")
+# 压缩 Packages
+#os.system(f"rm '{programPath}/Packages.xz'")
+#os.system(f"xz '{programPath}/Packages'")
+#os.system(f"rm '{programPath}/Packages'")
