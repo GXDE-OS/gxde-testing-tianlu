@@ -443,6 +443,27 @@ Description: Image Viewer for GXDE Desktop Environment
 
 Package: gxde-icon-theme
 Architecture: all
+Version: 2024.08.25
+Priority: optional
+Section: x11
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 85961
+Provides: deepin-icon-theme
+Depends: papirus-icon-theme
+Recommends: gxde-sea-icon-theme
+Conflicts: deepin-icon-theme, gxde-cursor-theme
+Replaces: deepin-icon-theme
+Filename: ./g/gxde-icon-theme/gxde-icon-theme_2024.08.25_all.deb
+Size: 12960644
+MD5sum: 1d47cae918e02dd4d674084e2b28d233
+SHA1: d4fa6d6392bc5f16eefe34530df71ee0326428aa
+SHA256: 2a1df97bf4cd0f193f1dd47fafad1dc73274b663484cec93071a6b2e977d06c8
+SHA512: 1a5400c96a2168468c3715dde6df792b775ee740eb0f4c9fdb44e2ed5af17cafc604982246a1cca342611f7b95051247b73f1d1f4166884786a997d532e677ee
+Description: GXDE Icons
+ This package is GXDEIconTheme
+
+Package: gxde-icon-theme
+Architecture: all
 Version: 2024.08.18
 Priority: optional
 Section: x11
@@ -1301,6 +1322,31 @@ SHA512: 00d04a05021f1896ff7587c8f088978fb3f8330dafa05b0cd183e9401802f3a627770f2b
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
+
+Package: calamares-settings-gxde
+Architecture: all
+Version: 12.0.10gxde1
+Priority: optional
+Section: utils
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 193
+Provides: calamares-settings
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Filename: ./c/calamares-settings-gxde/calamares-settings-gxde_12.0.10gxde1_all.deb
+Size: 103388
+MD5sum: dcab1bad48b9d908530b50ca79283be4
+SHA1: e541be04e104faccbd9956e736c6e700bcd41a74
+SHA256: 05e1a41b7a587751fae9adfcfe86eb41a484d0280abadca7f280b94a31b95afb
+SHA512: d88db815a30dbc4bed9c6bbd7bb7daa01ff0e7c7c6c6e8de6ffdf3135a5d09e29396b94bd6a2f2bc812080239b6a87bedd19dd23996fbfc47e374ba494ad9e7c
+Homepage: https://gitee.com/GXDE-OS/calamares-settings-gxde
+Description: GXDE theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest GXDE artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
 
 Package: zenity-common
 Architecture: all
