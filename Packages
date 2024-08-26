@@ -1062,6 +1062,25 @@ SHA512: 93450c69c2fc28fe3dcf315eb61ecc690ad4d5d635a683fe47e0ea5054a63a8b623b85a1
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
+Package: deepin-desktop-base
+Architecture: amd64
+Version: 2024.08.26
+Priority: optional
+Section: misc
+Maintainer: gfdgd xi<3025613752@qq.com>, Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 141
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola, deepin-anything-server, deepin-anything-libs, tela-grub2-themes
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2024.08.26_amd64.deb
+Size: 20384
+MD5sum: e006eb78fd23fe98e7d5a199ac29eb0a
+SHA1: 713f33cfd2a2f42c407b0e51d2e69d930ae3628f
+SHA256: 29c4789dd24c6659ac2410fe9b8899ec2660156df1c465d126d9b6809759faf3
+SHA512: b0a4989c13655502a9117e528cd39f328f4f84da33036311fd38398d1f8a3d107ef52c5151b295a2af3598c33cf9b6a812bb56ca6904d60878558d0c6b558005
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
 Package: dde-dock-onboard-plugin
 Architecture: amd64
 Version: 4.10.14
@@ -1325,6 +1344,31 @@ Description: start deepin desktop environment
 
 Package: calamares-settings-gxde
 Architecture: all
+Version: 12.0.10gxde2
+Priority: optional
+Section: utils
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 915
+Provides: calamares-settings
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Filename: ./c/calamares-settings-gxde/calamares-settings-gxde_12.0.10gxde2_all.deb
+Size: 830488
+MD5sum: b774261c21a920f68c267c0fa4e8a231
+SHA1: a106f2c7e6ab6ff5c5bb9a1157ccad3cdb0e528d
+SHA256: 31b907e9b226b8f5e9f8e152eafe4d65ea0ac5f7fa1076f365a351263823bcab
+SHA512: 532f11501049b86f3b51337345f45025319c6236c5aa65e7b39415368a1235f3f1535727264323cd2afeb040415dcefc0a6feaf7bfa218f143c14b6529906136
+Homepage: https://gitee.com/GXDE-OS/calamares-settings-gxde
+Description: GXDE theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest GXDE artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
+Package: calamares-settings-gxde
+Architecture: all
 Version: 12.0.10gxde1
 Priority: optional
 Section: utils
@@ -1338,6 +1382,31 @@ MD5sum: dcab1bad48b9d908530b50ca79283be4
 SHA1: e541be04e104faccbd9956e736c6e700bcd41a74
 SHA256: 05e1a41b7a587751fae9adfcfe86eb41a484d0280abadca7f280b94a31b95afb
 SHA512: d88db815a30dbc4bed9c6bbd7bb7daa01ff0e7c7c6c6e8de6ffdf3135a5d09e29396b94bd6a2f2bc812080239b6a87bedd19dd23996fbfc47e374ba494ad9e7c
+Homepage: https://gitee.com/GXDE-OS/calamares-settings-gxde
+Description: GXDE theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest GXDE artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
+Package: calamares-settings-gxde
+Architecture: all
+Version: 12.0.10gxde3
+Priority: optional
+Section: utils
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 1907
+Provides: calamares-settings
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Filename: ./c/calamares-settings-gxde/calamares-settings-gxde_12.0.10gxde3_all.deb
+Size: 1028740
+MD5sum: c016599820f22fdff4348a71dc182dda
+SHA1: 2bd482cb33d0321d07695f2db8e40cd27d82205d
+SHA256: 394c0bd8a6ee07dccbae880aacb4d42c21aa18546f6b25790c3e956a11374b4e
+SHA512: 2c338b630d71d3f28bdcf9c7d77196f6920b3e9ff685178e8f3cea7d2f47d233daa57ad3e9d78b06ffda37b7ff2231f6035bb25a7352085926ecc2983095ca5b
 Homepage: https://gitee.com/GXDE-OS/calamares-settings-gxde
 Description: GXDE theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.

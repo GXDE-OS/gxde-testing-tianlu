@@ -1,0 +1,25 @@
+Package: calamares-settings-gxde
+Architecture: all
+Version: 12.0.10gxde2
+Priority: optional
+Section: utils
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 915
+Provides: calamares-settings
+Depends: calamares, cryptsetup, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Filename: ./c/calamares-settings-gxde/calamares-settings-gxde_12.0.10gxde2_all.deb
+Size: 830488
+MD5sum: b774261c21a920f68c267c0fa4e8a231
+SHA1: a106f2c7e6ab6ff5c5bb9a1157ccad3cdb0e528d
+SHA256: 31b907e9b226b8f5e9f8e152eafe4d65ea0ac5f7fa1076f365a351263823bcab
+SHA512: 532f11501049b86f3b51337345f45025319c6236c5aa65e7b39415368a1235f3f1535727264323cd2afeb040415dcefc0a6feaf7bfa218f143c14b6529906136
+Homepage: https://gitee.com/GXDE-OS/calamares-settings-gxde
+Description: GXDE theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest GXDE artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
